@@ -121,6 +121,9 @@ Un fotograma 16:9 perfecto: la NR-1 en grafito mate, en tres cuartos frontal, oc
 - Sin tres tarjetas de características idénticas en fila.
 - Sin degradados de morado a azul.
 - Sin efecto de vidrio en todas las tarjetas.
+- (Fase 4) Sin texto secundario encima de la bici 3D sin oscurecer antes el escenario: el escenario baja al 86 % detrás de las secciones de contenido.
+- (Fase 4) Sin cifras grandes que choquen con el título de al lado: la columna de cifras tiene ancho fijo y no se parte.
+- (Fase 4) Sin la bici flotando en un vacío negro: detrás del 3D va la foto del mundo (carretera y sendero) oscurecida.
 
 ## 18. Experiencia
 **Opción C: ambos.** La NR-1 como modelo 3D real en el hero y en la sección "Explora en 3D", más una sección de película corta más abajo en la página.
