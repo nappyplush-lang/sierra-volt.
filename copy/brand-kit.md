@@ -121,3 +121,12 @@ Un fotograma 16:9 perfecto: la NR-1 en grafito mate, en tres cuartos frontal, oc
 - Sin tres tarjetas de características idénticas en fila.
 - Sin degradados de morado a azul.
 - Sin efecto de vidrio en todas las tarjetas.
+
+## 18. Experiencia
+**Opción C: ambos.** La NR-1 como modelo 3D real en el hero y en la sección "Explora en 3D", más una sección de película corta más abajo en la página.
+
+- **Historia (3D):** los cinco beats de la sección 15 son posiciones de cámara alrededor de la bici. Los primeros planos van al motor central, el pedalier, la horquilla y el display; nunca a radios, cadena ni cables.
+- **Riesgo asumido:** una bici es un producto límite para imagen-a-3D. La fuente 3D será un perfil lateral puro 16:9 sobre fondo gris liso. Si ningún candidato pasa la revisión de la Fase 3, el hero vuelve a la película (opción B).
+- **Presupuesto (210 créditos al empezar la Fase 2):** imágenes ~39 · dos candidatos 3D ~62 (Meshy 7 ultra 44 + Tripo 18) · película corta 5–6 s: Gemini Omni Flash ~32.5 o Seedance 2.5 ~80–96. No hay margen para muchas repeticiones.
+
+**Brief de la película (sección de película, 5–6 s):** una sola toma continua. Cámara baja que avanza lento por una carretera de montaña mojada que se convierte en sendero de tierra, al amanecer azul; la NR-1 detenida al borde donde termina el asfalto. Luz baja con contorno verde eléctrico, niebla que corre por el suelo, llovizna fina a contraluz. Lado izquierdo tranquilo (niebla y profundidad) para el titular. **Fotograma final:** la bici en perfil tres cuartos a la derecha del encuadre, quieta, la niebla asentada, la cresta de la sierra recortada al fondo; nada se mueve salvo una niebla muy leve.
