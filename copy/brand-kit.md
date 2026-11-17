@@ -130,3 +130,7 @@ Un fotograma 16:9 perfecto: la NR-1 en grafito mate, en tres cuartos frontal, oc
 - **Presupuesto (210 créditos al empezar la Fase 2):** imágenes ~39 · dos candidatos 3D ~62 (Meshy 7 ultra 44 + Tripo 18) · película corta 5–6 s: Gemini Omni Flash ~32.5 o Seedance 2.5 ~80–96. No hay margen para muchas repeticiones.
 
 **Brief de la película (sección de película, 5–6 s):** una sola toma continua. Cámara baja que avanza lento por una carretera de montaña mojada que se convierte en sendero de tierra, al amanecer azul; la NR-1 detenida al borde donde termina el asfalto. Luz baja con contorno verde eléctrico, niebla que corre por el suelo, llovizna fina a contraluz. Lado izquierdo tranquilo (niebla y profundidad) para el titular. **Fotograma final:** la bici en perfil tres cuartos a la derecha del encuadre, quieta, la niebla asentada, la cresta de la sierra recortada al fondo; nada se mueve salvo una niebla muy leve.
+
+**Decisiones de la Fase 3:**
+- Modelo 3D elegido: candidato B (Tripo H3.1), optimizado a 3.5 MB en `website/public/model/product.glb`. `modelYaw = -1.57` (el lado de la transmisión queda al frente). Motor, plato y biela nítidos: el beat 2 se queda en el motor central.
+- Película elegida: Gemini Omni Flash, 10 s, 1080p, con ciclista. Recorre carretera mojada → grava → sendero de roca → losa de granito frente a la sierra. Va en una sección propia "Todo el terreno", recorrida con el scroll. El final ya está en reposo, sin recorte.
