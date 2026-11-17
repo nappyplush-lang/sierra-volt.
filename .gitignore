@@ -1,0 +1,2 @@
+# Raw GLBs are 20-66 MB; optimized copies live in website/public/model/. Re-download from the job IDs in copy/media-jobs.md if needed.
+assets/3d/*.glb

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nort Run NR-1 | E-bike de doble suspensión para la ciudad y la sierra</title>
+  <meta name="description" content="Nort Run NR-1: e-bike de doble suspensión con motor central de 95 Nm, batería de 720 Wh y hasta 120 km de autonomía. Del asfalto a la sierra, sin cambiar de bici. Reserva tu prueba de manejo." />
+  <meta name="theme-color" content="#0A0E0C" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nort Run NR-1 | Del asfalto a la sierra" />
+  <meta property="og:description" content="Una e-bike de doble suspensión para la ciudad entre semana y la montaña el fin de semana." />
+  <meta property="og:url" content="https://nortrun.com/" />
+  <meta property="og:image" content="https://nortrun.com/img/hero.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230A0E0C'/%3E%3Cpath d='M14 50 26 14h8L22 50z' fill='%23E6ECE8'/%3E%3Cpath d='M30 50 42 14h8L38 50z' fill='%233DFF7E'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <img class="stage-backdrop" src="/img/world.jpg" alt="" aria-hidden="true" />
+  <img class="stage-poster" src="/img/hero.jpg" alt="" aria-hidden="true" fetchpriority="high" />
+  <canvas id="stage" aria-hidden="true"></canvas>
+  <div class="stage-dim" aria-hidden="true"></div>
+  <div class="stage-load" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Nort Run, inicio">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 50 26 14h8L22 50z" fill="currentColor"/><path d="M30 50 42 14h8L38 50z" fill="#3DFF7E"/></svg>
+      <span class="brand__word">NORT RUN</span>
+    </a>
+    <nav class="topbar__nav" aria-label="Principal">
+      <a href="#terreno">Terreno</a>
+      <a href="#explore">Explorar</a>
+      <a href="#especificaciones">Specs</a>
+      <a class="btn btn--small" href="#reserva">Reservar</a>
+    </nav>
+  </header>
+
+  <main id="page">
+    <section id="story" aria-label="La NR-1">
+      <div class="beat beat--left" id="top">
+        <h1 class="beat__title">Del asfalto a la sierra.</h1>
+        <p class="beat__text">La NR-1 es una e-bike de doble suspensión para ir al trabajo entre semana y subir la montaña el sábado. La misma bici, sin cambiar nada.</p>
+        <div class="beat__actions">
+          <a class="btn" href="#reserva">Reserva tu NR-1</a>
+          <a class="link-arrow" href="#especificaciones">Ver especificaciones</a>
+        </div>
+      </div>
+      <div class="beat beat--right">
+        <h2 class="beat__title">95 Nm que no se rinden en la subida.</h2>
+        <p class="beat__text">Motor central de 750 W pico, montado bajo el pedalier. Silencioso en la calle, terco en la pendiente.</p>
+      </div>
+      <div class="beat beat--left">
+        <h2 class="beat__title">Una bici. Cuatro modos. Todo el terreno.</h2>
+        <p class="beat__text">Calle, Sendero, Sierra y Turbo. Cambias de modo con el pulgar, no de bici.</p>
+      </div>
+      <div class="beat beat--right">
+        <h2 class="beat__title">Donde termina el pavimento, empieza tu ruta.</h2>
+        <p class="beat__text">Llantas de 2.6 pulgadas con banda mixta: agarre en asfalto mojado, tracción en tierra suelta.</p>
+      </div>
+      <div class="beat beat--left">
+        <h2 class="beat__title">Nort Run NR-1. Lista cuando tú lo estés.</h2>
+        <p class="beat__text">Pruebas de manejo y pre-pedidos abiertos en Ciudad de México.</p>
+      </div>
+    </section>
+
+    <section class="impact" aria-label="Una sola bici">
+      <p class="impact__line">Entre semana te lleva al trabajo.<br />El sábado te sube a la sierra.<br /><span class="impact__accent">Es la misma bici.</span></p>
+      <p class="impact__sub">Sin cambiar de llantas, sin cargar dos bicis en el coche, sin preguntarle al terreno si te deja pasar.</p>
+    </section>
+
+    <section class="features" id="caracteristicas" aria-labelledby="features-title">
+      <div class="features__head">
+        <h2 id="features-title" class="section-title">Hecha para subir.<br />Pensada para volver.</h2>
+        <p class="features__intro">Lo que más piden quienes ruedan en ciudad y en montaña: que no se quede sin batería, que no los deje a pie en la cuesta y que frene igual con lluvia.</p>
+      </div>
+      <ul class="features__list">
+        <li class="feature reveal">
+          <span class="feature__stat">95<small>Nm</small></span>
+          <div><h3>Un motor que no se rinde en la subida</h3><p>Par de sobra para pendientes de sierra. Subes sentado, no empujando.</p></div>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__stat">720<small>Wh</small></span>
+          <div><h3>Una semana con una carga</h3><p>Hasta 120 km en modo Calle. Batería extraíble con llave: la cargas en la oficina.</p></div>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__stat">150<small>mm</small></span>
+          <div><h3>Suspensión que se bloquea en la calle</h3><p>Recorrido completo para la piedra. Un botón y queda rígida para el asfalto.</p></div>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__stat">203<small>mm</small></span>
+          <div><h3>Frenos para bajar con confianza</h3><p>Hidráulicos de 4 pistones con discos de 203 mm. Mismo tacto con lluvia o con polvo.</p></div>
+        </li>
+        <li class="feature reveal">
+          <span class="feature__stat">1200<small>lm</small></span>
+          <div><h3>Ves y te ven</h3><p>Faro LED integrado para salir antes del amanecer y volver después del atardecer.</p></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="terrain stage-cover" id="terreno" aria-labelledby="terrain-title">
+      <div class="terrain__pin">
+        <img class="terrain__poster" src="/img/film-0-5.jpg" alt="Ciclista en la NR-1 sobre una carretera de montaña mojada" />
+        <video class="terrain__video" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+        <div class="terrain__shade" aria-hidden="true"></div>
+        <div class="terrain__copy">
+          <h2 id="terrain-title" class="section-title">Todo el terreno.<br />Una sola bici.</h2>
+          <p>Diez segundos, cuatro superficies, cero cambios. Baja con el scroll y mira cómo cambia el suelo.</p>
+        </div>
+        <div class="meter" aria-label="Terreno recorrido">
+          <span class="meter__track" aria-hidden="true"><span class="meter__fill"></span></span>
+          <ol class="meter__stops">
+            <li class="meter__stop is-active"><span class="meter__name">Asfalto mojado</span><span class="meter__mode">Modo Calle</span></li>
+            <li class="meter__stop"><span class="meter__name">Grava suelta</span><span class="meter__mode">Modo Sendero</span></li>
+            <li class="meter__stop"><span class="meter__name">Roca y raíz</span><span class="meter__mode">Modo Sierra</span></li>
+            <li class="meter__stop"><span class="meter__name">La cima</span><span class="meter__mode">Misma bici</span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="terrain__stills">
+        <figure><img src="/img/film-0-5.jpg" alt="La NR-1 en asfalto mojado" loading="lazy" /><figcaption>Asfalto mojado <span>Modo Calle</span></figcaption></figure>
+        <figure><img src="/img/film-3-5.jpg" alt="La NR-1 en grava suelta" loading="lazy" /><figcaption>Grava suelta <span>Modo Sendero</span></figcaption></figure>
+        <figure><img src="/img/film-6-5.jpg" alt="La NR-1 en un sendero de roca" loading="lazy" /><figcaption>Roca y raíz <span>Modo Sierra</span></figcaption></figure>
+        <figure><img src="/img/film-9-8.jpg" alt="La NR-1 detenida frente a la sierra" loading="lazy" /><figcaption>La cima <span>Misma bici</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section id="explore" aria-labelledby="explore-title">
+      <div class="explore__drag" aria-label="Arrastra para girar la bici"></div>
+      <div class="explore__ui">
+        <h2 id="explore-title" class="section-title">Explora la NR-1</h2>
+        <p>Arrástrala para girarla. Los puntos verdes te cuentan qué hay en cada pieza.</p>
+        <div class="light-modes" role="group" aria-label="Luz de la escena">
+          <button type="button" data-light="amanecer" aria-pressed="true">Amanecer</button>
+          <button type="button" data-light="horaazul" aria-pressed="false">Hora azul</button>
+          <button type="button" data-light="cresta" aria-pressed="false">Cresta al sol</button>
+        </div>
+      </div>
+      <button type="button" class="hotspot is-hidden" data-hotspot="motor"><span>Motor central 95 Nm</span></button>
+      <button type="button" class="hotspot is-hidden" data-hotspot="bateria"><span>Batería 720 Wh extraíble</span></button>
+      <button type="button" class="hotspot is-hidden" data-hotspot="horquilla"><span>Horquilla de 150 mm</span></button>
+      <button type="button" class="hotspot is-hidden" data-hotspot="display"><span>Display con GPS y app</span></button>
+      <button type="button" class="hotspot is-hidden" data-hotspot="freno"><span>Disco de 203 mm, 4 pistones</span></button>
+    </section>
+
+    <section class="materials" aria-labelledby="materials-title">
+      <div class="materials__media tilt">
+        <img src="/img/material.jpg" alt="Primer plano del aluminio grafito mate de la NR-1 con gotas de agua y una línea de luz verde" loading="lazy" />
+      </div>
+      <div class="materials__text">
+        <h2 id="materials-title" class="section-title">Grafito, agua y una línea de luz.</h2>
+        <p>El cuadro es aluminio 6061 hidroformado, con la batería escondida en el tubo diagonal y los cables por dentro. Acabado mate que aguanta la primera rama y la décima.</p>
+        <dl class="materials__facts">
+          <div><dt>Cuadro</dt><dd>Aluminio 6061 hidroformado</dd></div>
+          <div><dt>Ruedas</dt><dd>29" delante, 27.5" detrás</dd></div>
+          <div><dt>Transmisión</dt><dd>12 velocidades</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="foryou" aria-labelledby="foryou-title">
+      <img class="foryou__bg" src="/img/world.jpg" alt="" aria-hidden="true" loading="lazy" />
+      <div class="foryou__inner">
+        <h2 id="foryou-title" class="section-title">Hecha para tu semana completa.</h2>
+        <div class="foryou__cols">
+          <article>
+            <h3>Lunes a viernes</h3>
+            <p class="foryou__mode">Modo Calle</p>
+            <p>Llegas a la oficina sin sudar y sin buscar estacionamiento. Suspensión bloqueada, faro encendido, 120 km de autonomía para toda la semana.</p>
+          </article>
+          <article>
+            <h3>Sábado y domingo</h3>
+            <p class="foryou__mode">Modo Sierra</p>
+            <p>Sales de casa rodando y en una hora estás en tierra. Suspensión abierta, 95 Nm para la cuesta y frenos que no se calientan en la bajada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="specs" id="especificaciones" aria-labelledby="specs-title">
+      <h2 id="specs-title" class="section-title">Especificaciones NR-1</h2>
+      <div class="specs__big">
+        <div><span class="specs__num">120</span><span class="specs__unit">km de autonomía</span></div>
+        <div><span class="specs__num">23.8</span><span class="specs__unit">kg de peso</span></div>
+        <div><span class="specs__num">5</span><span class="specs__unit">horas de carga</span></div>
+      </div>
+      <dl class="specs__table">
+        <div><dt>Motor</dt><dd>Central, 750 W pico, 95 Nm</dd></div>
+        <div><dt>Batería</dt><dd>720 Wh integrada, extraíble con llave</dd></div>
+        <div><dt>Autonomía</dt><dd>Hasta 120 km en Calle, 60 a 70 km en Sierra</dd></div>
+        <div><dt>Suspensión</dt><dd>150 mm delante, 140 mm detrás, bloqueo remoto</dd></div>
+        <div><dt>Ruedas</dt><dd>29" delante, 27.5" detrás, llantas de 2.6"</dd></div>
+        <div><dt>Frenos</dt><dd>Hidráulicos de 4 pistones, discos de 203 mm</dd></div>
+        <div><dt>Transmisión</dt><dd>12 velocidades</dd></div>
+        <div><dt>Pantalla</dt><dd>Display en la potencia con GPS y app</dd></div>
+        <div><dt>Luces</dt><dd>Faro LED de 1200 lm y luz trasera integrada</dd></div>
+        <div><dt>Modos</dt><dd>Calle, Sendero, Sierra, Turbo</dd></div>
+        <div><dt>Cuadro</dt><dd>Aluminio 6061 hidroformado, grafito mate</dd></div>
+        <div><dt>Peso</dt><dd>23.8 kg</dd></div>
+      </dl>
+    </section>
+
+    <section class="cta" id="reserva" aria-labelledby="cta-title">
+      <div class="cta__offer">
+        <h2 id="cta-title" class="section-title">Reserva tu NR-1</h2>
+        <p class="cta__price"><span class="cta__from">desde</span> $3,490 <span class="cta__cur">USD</span></p>
+        <ul class="cta__list">
+          <li>Prueba de manejo de 45 minutos, en calle y en tierra</li>
+          <li>Pre-pedido con anticipo reembolsable</li>
+          <li>Ajuste de suspensión a tu peso al entregarla</li>
+          <li>Dos años de garantía en motor y batería</li>
+        </ul>
+      </div>
+      <form class="cta__form" id="reserve-form" novalidate>
+        <label>Nombre<input name="nombre" type="text" autocomplete="name" required /></label>
+        <label>Correo<input name="email" type="email" autocomplete="email" required /></label>
+        <label>Ciudad<input name="ciudad" type="text" autocomplete="address-level2" /></label>
+        <fieldset class="cta__choice">
+          <legend>Quiero</legend>
+          <label class="choice"><input type="radio" name="tipo" value="prueba" checked /><span>Una prueba de manejo</span></label>
+          <label class="choice"><input type="radio" name="tipo" value="prepedido" /><span>Hacer un pre-pedido</span></label>
+        </fieldset>
+        <button class="btn btn--full" type="submit">Reserva tu NR-1</button>
+        <p class="cta__note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <footer class="stage-cover footer">
+      <p class="footer__word" aria-hidden="true">NORT RUN</p>
+      <div class="footer__grid">
+        <div>
+          <p class="footer__slogan">Del asfalto a la sierra, sin cambiar de bici.</p>
+          <a class="btn" href="#reserva">Reserva tu NR-1</a>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <a href="mailto:hola@nortrun.com">hola@nortrun.com</a>
+          <a href="tel:+525500000000">+52 55 0000 0000</a>
+          <p>Showroom y pruebas, Ciudad de México</p>
+        </div>
+        <div>
+          <h3>Síguenos</h3>
+          <a href="https://instagram.com/nortrun" rel="noopener" target="_blank">Instagram</a>
+          <a href="https://youtube.com/@nortrun" rel="noopener" target="_blank">YouTube</a>
+        </div>
+      </div>
+      <p class="footer__legal">© 2026 Nort Run. Todos los derechos reservados.</p>
+    </footer>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
